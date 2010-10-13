@@ -9,7 +9,30 @@ class Mix extends Controller {
 	
 	function index()
 	{
-		$this->load->view('template');
+		$this->load->view('header');
+		$this->load->view('welcome');
+		$this->load->view('footer');
+	}
+	function create()
+	{
+
+		$this->load->view('header');
+		$this->load->view('create');
+		$this->load->view('footer');
+	}
+	function edit()
+	{
+
+		$this->load->view('header');
+		$this->load->view('edit');
+		$this->load->view('footer');
+	}
+	function view()
+	{
+
+		$this->load->view('header');
+		$this->load->view('viewAll');
+		$this->load->view('footer');
 	}
 }
 
