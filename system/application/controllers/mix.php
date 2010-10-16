@@ -13,6 +13,7 @@ class Mix extends Controller {
 		$this->load->view('welcome');
 		$this->load->view('footer');
 	}
+	
 	function create()
 	{
 
@@ -20,6 +21,7 @@ class Mix extends Controller {
 		$this->load->view('create');
 		$this->load->view('footer');
 	}
+	
 	function edit()
 	{
 
@@ -27,6 +29,7 @@ class Mix extends Controller {
 		$this->load->view('edit');
 		$this->load->view('footer');
 	}
+	
 	function view()
 	{
 
