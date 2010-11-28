@@ -11,7 +11,7 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://localhost:8080/Exchange/";
+$config['base_url']	= "http://localhost:8080/CdExchange/";
 
 /*
 |--------------------------------------------------------------------------

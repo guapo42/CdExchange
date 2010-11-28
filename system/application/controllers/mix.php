@@ -16,6 +16,7 @@ class Mix extends Controller {
 	
 	function create()
 	{
+		$this->load->helper(array('form'));
 
 		$this->load->view('header');
 		$this->load->view('create');
@@ -32,7 +33,16 @@ class Mix extends Controller {
 	
 	function view()
 	{
-
+		$this->load->helper('file');
+	
+		$base = $this->config->item('base_upload_path');
+		echo "<pre>";
+		print_r(get_dir_file_info($base));
+		print_r(get_dir_file_info("/tmp/"));
+		echo "</pre>";
+		
+		
+		
 		$this->load->view('header');
 		$this->load->view('viewAll');
 		$this->load->view('footer');

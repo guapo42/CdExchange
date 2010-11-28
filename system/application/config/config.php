@@ -11,8 +11,18 @@
 |	http://example.com/
 |
 */
-$config['base_url']	= "http://localhost:8080/Exchange/";
+$config['base_url']	= "http://dixie/Sites/CdExchange/";
 
+/*
+|--------------------------------------------------------------------------
+| Base Upload Path
+|--------------------------------------------------------------------------
+|
+|  Path to your upload root
+| for example /tmp/uploads
+|
+*/
+$config['base_upload_path']	= "/tmp/uploads/";
 /*
 |--------------------------------------------------------------------------
 | Index File
